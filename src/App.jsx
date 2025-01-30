@@ -6,6 +6,7 @@ import Footer from "./component/Footer";
 import Demo from "./Demo";
 import Blog from "./component/Blog";
 import TernaryOperator from "./component/TernaryOperator";
+import If_else from "./component/If_else";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Demo/>
       <Hero/>
       <TernaryOperator/>
+      <If_else/>
       <Blog/>
       <Contact/>
       <Footer/>

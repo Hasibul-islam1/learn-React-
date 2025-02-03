@@ -12,7 +12,7 @@ const Conditionl_Ifelse = () => {
     return (
         <div>
             <h1>Loging Status</h1>
-            {LogingBtn}
+         {LogingBtn(true)} 
         </div>
     );
 };

@@ -9,6 +9,8 @@ import TernaryOperator from "./component/TernaryOperator";
 import If_else from "./component/If_else";
 import Loop from './component/Loop';
 import Conditionl_Ifelse from "./component/Conditionl_Ifelse";
+import ShortHandCondition from "./component/ShortHandCondition";
+import Imedite_invock_funcation from "./component/Imedite_invock_funcation";
 
 
 
@@ -19,6 +21,8 @@ const App = () => {
       <Hader/>
       <Demo/>
       <Conditionl_Ifelse/>
+      <ShortHandCondition/>
+      <Imedite_invock_funcation/>
       <Hero/>
       <TernaryOperator/>
       <If_else/>

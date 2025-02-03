@@ -7,6 +7,10 @@ import Demo from "./Demo";
 import Blog from "./component/Blog";
 import TernaryOperator from "./component/TernaryOperator";
 import If_else from "./component/If_else";
+import Loop from './component/Loop';
+import Conditionl_Ifelse from "./component/Conditionl_Ifelse";
+
+
 
 
 const App = () => {
@@ -14,9 +18,11 @@ const App = () => {
     <div>
       <Hader/>
       <Demo/>
+      <Conditionl_Ifelse/>
       <Hero/>
       <TernaryOperator/>
       <If_else/>
+      <Loop/>
       <Blog/>
       <Contact/>
       <Footer/>

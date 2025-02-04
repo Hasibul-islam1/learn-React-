@@ -13,10 +13,11 @@ import ShortHandCondition from "./component/ShortHandCondition";
 import Imedite_invock_funcation from "./component/Imedite_invock_funcation";
 import DrivenData from "./component/DrivenData";
 import DataDrivenObject from "./component/DataDrivenObject";
+import DataDrivenFuncation from "./component/DataDrivenFuncation";
 
 
 
-
+// this object use for data deiven object
 const App = () => {
   const trump = {
     firstName: "Donald",
@@ -26,6 +27,11 @@ const App = () => {
     isPresident: true,
     famousQuote: "Make America Great Again"
 };
+
+// this funcation is use for data driven funcation
+const btnClick=()=>{
+  alert("child button click")
+}
   return (
     <div>
       <Hader/>
@@ -40,6 +46,7 @@ const App = () => {
       <Loop/>
       <Blog/>
       <DataDrivenObject itme={trump}/>
+      <DataDrivenFuncation childbtn={btnClick}/>
       <Contact/>
       <Footer/>
     </div>

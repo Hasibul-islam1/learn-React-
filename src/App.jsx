@@ -12,11 +12,20 @@ import Conditionl_Ifelse from "./component/Conditionl_Ifelse";
 import ShortHandCondition from "./component/ShortHandCondition";
 import Imedite_invock_funcation from "./component/Imedite_invock_funcation";
 import DrivenData from "./component/DrivenData";
+import DataDrivenObject from "./component/DataDrivenObject";
 
 
 
 
 const App = () => {
+  const trump = {
+    firstName: "Donald",
+    lastName: "Trump",
+    age: 77, // As of 2023
+    occupation: "Politician, Businessman",
+    isPresident: true,
+    famousQuote: "Make America Great Again"
+};
   return (
     <div>
       <Hader/>
@@ -30,6 +39,7 @@ const App = () => {
       <If_else/>
       <Loop/>
       <Blog/>
+      <DataDrivenObject itme={trump}/>
       <Contact/>
       <Footer/>
     </div>

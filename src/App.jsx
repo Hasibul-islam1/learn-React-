@@ -11,6 +11,7 @@ import Loop from './component/Loop';
 import Conditionl_Ifelse from "./component/Conditionl_Ifelse";
 import ShortHandCondition from "./component/ShortHandCondition";
 import Imedite_invock_funcation from "./component/Imedite_invock_funcation";
+import DrivenData from "./component/DrivenData";
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
       <Conditionl_Ifelse/>
       <ShortHandCondition/>
       <Imedite_invock_funcation/>
+      <DrivenData title="i am hasibul" mess="do some thing for world"/>
       <Hero/>
       <TernaryOperator/>
       <If_else/>

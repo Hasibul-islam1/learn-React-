@@ -14,6 +14,8 @@ import Imedite_invock_funcation from "./component/Imedite_invock_funcation";
 import DrivenData from "./component/DrivenData";
 import DataDrivenObject from "./component/DataDrivenObject";
 import DataDrivenFuncation from "./component/DataDrivenFuncation";
+import RespoindingEvent from "./component/RespoindingEvent";
+import From from "./component/From";
 
 
 
@@ -45,8 +47,10 @@ const btnClick=()=>{
       <If_else/>
       <Loop/>
       <Blog/>
+      <RespoindingEvent/>
       <DataDrivenObject itme={trump}/>
       <DataDrivenFuncation childbtn={btnClick}/>
+      <From/>
       <Contact/>
       <Footer/>
     </div>

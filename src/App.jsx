@@ -16,6 +16,8 @@ import DataDrivenObject from "./component/DataDrivenObject";
 import DataDrivenFuncation from "./component/DataDrivenFuncation";
 import RespoindingEvent from "./component/RespoindingEvent";
 import From from "./component/From";
+import Userref from "./component/Userref";
+import UseState from "./component/UseState";
 
 
 
@@ -52,6 +54,8 @@ const btnClick=()=>{
       <DataDrivenFuncation childbtn={btnClick}/>
       <From/>
       <Contact/>
+      <Userref/>
+      <UseState/>
       <Footer/>
     </div>
   );
